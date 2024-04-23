@@ -1,14 +1,25 @@
 //connected class Vehicle / Bicycle / truck / Inheritance
+// connected class Abstraction / Vehicle / Car
 
-public class Vehicle {
+public abstract class Vehicle {
 
-    double speed;
+    abstract void go();
 
-    void go() {
-        System.out.println("This vehicle is moving");
-    }
 
-    void stop() {
-        System.out.println("This vehicle is stopped");
-    }
+
+//    double speed;
+//
+//    void go() {
+//        System.out.println("This vehicle is moving");
+//    }
+//
+//    void stop() {
+//        System.out.println("This vehicle is stopped");
+//    }
+
+
+
+
+
+
 }
