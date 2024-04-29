@@ -1,2 +1,11 @@
-package NewGUIwindow;public class Main {
+package NewGUIwindow;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        LaunchPage launchPage = new LaunchPage();
+
+    }
 }
+
