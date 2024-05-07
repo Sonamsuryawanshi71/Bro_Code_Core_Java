@@ -1,11 +1,10 @@
 package KeyListener;
 
+import java.awt.Color;
+import java.awt.event.*;
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 
-public class MyFrame extends JFrame implements KeyListener {
+public class MyFrame extends JFrame implements KeyListener{
 
 
     JLabel label;
@@ -22,8 +21,8 @@ public class MyFrame extends JFrame implements KeyListener {
         label = new JLabel();
         label.setBounds(0, 0, 100, 100);
         label.setIcon(icon);
-        //label.setBackground(Color.red);
-        //label.setOpaque(true);
+        label.setBackground(Color.red);
+        label.setOpaque(true);
         this.getContentPane().setBackground(Color.black);
         this.add(label);
         this.setVisible(true);

@@ -1,2 +1,5 @@
-package Packages;public class ToolBox {
+package Packages;
+
+public class Toolbox {
+
 }
